@@ -1,0 +1,38 @@
+@import "../../common//colors.scss";
+
+.page-notfound {
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 67vh;
+    font-size: 10rem;
+    letter-spacing: 10px;
+    font-weight: bold;
+    background: linear-gradient(45deg, rgb(68, 68, 236), rgb(238, 83, 83));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    span {
+      animation: bgColor 0.4s infinite alternate;
+    }
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    a {
+      color: #000;
+      font-weight: bold;
+    }
+  }
+}
+@keyframes bgColor {
+  100% {
+    background: linear-gradient(180deg, #8FE3CF, #00ffc3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

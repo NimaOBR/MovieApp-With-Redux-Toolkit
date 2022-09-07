@@ -1,0 +1,21 @@
+@import './common/colors.scss';
+
+@font-face{
+  font-family: Rubik;
+  src: url('./fonts/Rubik/Rubik-VariableFont_wght.ttf');
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+body {
+  overflow-X: hidden;
+  font-family: Rubik;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $secoundary-color;
+}

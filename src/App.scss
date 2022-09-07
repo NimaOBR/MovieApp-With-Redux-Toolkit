@@ -1,0 +1,10 @@
+@import "./common/colors.scss";
+
+.App {
+  background-color: $secoundary-color;
+  height: 100vh;
+  color: #fff;
+}
+.container{
+    margin: 0 40px;
+}

@@ -1,0 +1,40 @@
+@import "../../common//colors.scss";
+
+// Movie List
+
+.movie-list {
+  margin: 20px 0;
+  h1 {
+    margin: 40px 0;
+  }
+}
+
+// .movie-container {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+//   gap: 15px;
+//   width: 100%;
+  
+// }
+
+// Series List
+
+.series-list {
+  margin: 40px 0;
+  h1 {
+    margin: 40px 0;
+  }
+}
+
+// .series-container {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+//   gap: 15px; 
+// }
+
+.spiner-loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
